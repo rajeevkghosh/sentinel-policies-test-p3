@@ -1,0 +1,147 @@
+import "strings"
+
+providers = {
+	"google": {
+		"alias":               "",
+		"config":              {},
+		"module_address":      "",
+		"name":                "google",
+		"provider_config_key": "google",
+		"version_constraint":  "",
+	},
+}
+
+resources = {
+	"data.google_project.project": {
+		"address": "data.google_project.project",
+		"config": {
+			"project_id": {
+				"constant_value": "modular-scout-345114",
+			},
+		},
+		"count":               {},
+		"depends_on":          [],
+		"for_each":            {},
+		"mode":                "data",
+		"module_address":      "",
+		"name":                "project",
+		"provider_config_key": "google",
+		"provisioners":        [],
+		"type":                "google_project",
+	},
+	"google_bigquery_data_transfer_config.query_config": {
+		"address": "google_bigquery_data_transfer_config.query_config",
+		"config": {
+			"data_source_id": {
+				"constant_value": "scheduled_query",
+			},
+			"destination_dataset_id": {
+				"references": [
+					"google_bigquery_dataset.my_dataset.dataset_id",
+					"google_bigquery_dataset.my_dataset",
+				],
+			},
+			"display_name": {
+				"constant_value": "my-query",
+			},
+			"location": {
+				"constant_value": "asia-northeast1",
+			},
+			"params": {
+				"constant_value": {
+					"destination_table_name_template": "my_table",
+					"query":             "SELECT name FROM tabl WHERE x = 'y'",
+					"write_disposition": "WRITE_APPEND",
+				},
+			},
+			"schedule": {
+				"constant_value": "first sunday of quarter 00:00",
+			},
+		},
+		"count": {},
+		"depends_on": [
+			"google_project_iam_member.permissions",
+		],
+		"for_each":            {},
+		"mode":                "managed",
+		"module_address":      "",
+		"name":                "query_config",
+		"provider_config_key": "google",
+		"provisioners":        [],
+		"type":                "google_bigquery_data_transfer_config",
+	},
+	"google_bigquery_dataset.my_dataset": {
+		"address": "google_bigquery_dataset.my_dataset",
+		"config": {
+			"dataset_id": {
+				"constant_value": "my_dataset",
+			},
+			"description": {
+				"constant_value": "bar",
+			},
+			"friendly_name": {
+				"constant_value": "foo",
+			},
+			"location": {
+				"constant_value": "asia-northeast1",
+			},
+		},
+		"count": {},
+		"depends_on": [
+			"google_project_iam_member.permissions",
+		],
+		"for_each":            {},
+		"mode":                "managed",
+		"module_address":      "",
+		"name":                "my_dataset",
+		"provider_config_key": "google",
+		"provisioners":        [],
+		"type":                "google_bigquery_dataset",
+	},
+	"google_project_iam_member.permissions": {
+		"address": "google_project_iam_member.permissions",
+		"config": {
+			"member": {
+				"references": [
+					"data.google_project.project.number",
+					"data.google_project.project",
+				],
+			},
+			"project": {
+				"references": [
+					"data.google_project.project.project_id",
+					"data.google_project.project",
+				],
+			},
+			"role": {
+				"constant_value": "roles/iam.serviceAccountShortTermTokenMinter",
+			},
+		},
+		"count":               {},
+		"depends_on":          [],
+		"for_each":            {},
+		"mode":                "managed",
+		"module_address":      "",
+		"name":                "permissions",
+		"provider_config_key": "google",
+		"provisioners":        [],
+		"type":                "google_project_iam_member",
+	},
+}
+
+provisioners = {}
+
+variables = {}
+
+outputs = {}
+
+module_calls = {}
+
+strip_index = func(addr) {
+	s = strings.split(addr, ".")
+	for s as i, v {
+		s[i] = strings.split(v, "[")[0]
+	}
+
+	return strings.join(s, ".")
+}

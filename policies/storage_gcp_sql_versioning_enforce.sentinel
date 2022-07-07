@@ -1,0 +1,28 @@
+# This policy enforces the validation of allowed versions of CloudSQL
+# These sentinel policies enforce Wells Fargo security principles
+
+# Import tfplan-functions.sentinel
+# with alias "plan"
+import "tfplan/v2" as tfplan
+import "tfplan-functions" as plan
+import "strings"
+import "types"
+
+allowed_database_versions = ["POSTGRES_9_6", "POSTGRES_10", "POSTGRES_11", "POSTGRES_12", "POSTGRES_13"]
+
+# Get all SQL Database Instance
+allSqlDatabaseInstance = plan.find_resources("google_sql_database_instance")
+
+violations = {}
+for allSqlDatabaseInstance as address, rc {
+	database_version = plan.evaluate_attribute(rc, "database_version")
+	print(database_version)
+
+	if not (database_version in allowed_database_versions) {
+		violations[address] = rc
+		print("The database version for: " + address + " should be from the following list: " + plan.to_string(allowed_database_versions))
+	}
+}
+
+GCP_CLOUDSQL_VERSION = rule { length(violations) is 0 }
+main = rule { GCP_CLOUDSQL_VERSION }

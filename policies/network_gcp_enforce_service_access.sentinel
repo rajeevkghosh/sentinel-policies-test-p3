@@ -1,0 +1,38 @@
+# This policy enforces use of networks connect_mode for google_filestore_instance to be PRIVATE_SERVICE_ACCESS
+# These sentinel policies enforce Wells Fargo security principles
+
+# Import tfplan-functions.sentinel
+# with alias "plan"
+import "tfplan/v2" as tfplan
+import "tfplan-functions" as plan
+import "strings"
+import "types"
+
+# Get all Filestore Instances
+allFilestoreInstances = plan.find_resources("google_filestore_instance")
+
+violations = {}
+for allFilestoreInstances as address, rc {
+
+	mode = plan.evaluate_attribute(rc.change.after, "networks.0.connect_mode")
+
+	is_mode_undefined = rule { types.type_of(mode) == "null" or types.type_of(mode) == "undefined" }
+
+	if is_mode_undefined {
+
+		print("The value for connect_mode for  " + address + " can't be null")
+		violations[address] = rc
+
+	} else {
+
+		if not (mode == "PRIVATE_SERVICE_ACCESS") {
+			print("The value for connect_mode for  " + address + " can only be PRIVATE_SERVICE_ACCESS")
+			violations[address] = rc
+		}
+	}
+
+}
+
+GCP_FILESTORE_ACCESS = rule { length(violations) is 0 }
+
+main = rule { GCP_FILESTORE_ACCESS }

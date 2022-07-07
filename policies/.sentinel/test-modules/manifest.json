@@ -1,0 +1,1924 @@
+{
+	"records": [
+		{
+			"key": "test/network_gcp_subnet_route_restriction/failure-gcp-vpc-as-defroute/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/kms-location-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/storage_gcp_versioning_enforce/gcs-version-lifecycle-policy-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-dataplane-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-df-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/gke-cluster-location-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gce-rbac-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-df-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_dataproc_cluster_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gce-rbac-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/cc-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_dataproc_cluster_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_dataproc_cluster_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-release-channel-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/df-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_storage_bucket_pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-bqt-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/success_privateca_ca_pool_policy/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/failure_privateca_ca_pool_expression_policy/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_traffic_enforce/failure-gcp-traffic-enforce/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/null-gcp_dlp_trigger/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_route_restriction/success-gcp-vpc-as-defroute/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/google_compute_interconnect_attachment-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/null_privateca_ca_pool_expression_policy/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/gce-kms_key_name-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-dataplane-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/project-iam-member-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-release-channel-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/secret-manager-location-check-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/failure-gdc-dp-http/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_kms_enforce/skip-initial-check-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-cc-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/success-gcp_dlp_trigger/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_storage_bucket_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/bigquery-location-check-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gke-workload-policy-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-df-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/dataflow-kms-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_log_enforce/success-gcp-vpc-subnet-logs/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/gke-cluster-nodepool-location-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/success-gdc-dp-http/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/success-gcp_dlp_trigger/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_kms_enforce/skip-initial-check-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/df-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/success-gdc-dp-internal-ip/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/df-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_kms_key_ring_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-cc-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_resiliency_validation/google_compute_region_backend_service-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_forwarding_rule-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_kms_enforce/rotation-check-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_traffic_enforce/success-gcp-traffic-enforce/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_route_restriction/success-gcp-vpc-as-defroute/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_route_restriction/null-gcp-vpc-as-defroute/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_bigquery_dataset_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_storage_bucket_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_compute_firewall_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gce-imgversion-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gce-imgversion-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-dp-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_gke_notify/gke-masterauth-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_kms_crypto_key_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/df-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-df-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_forwarding_rule-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_storage_bucket_fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gke-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/lb-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_traffic_enforce/null-gcp-traffic-enforce/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/dataproc-location-check-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-release-channel-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_bigquery_dataset_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_firewall-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_compute_forwarding_rule-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_kms_crypto_key_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/dataflow-kms-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_compute_forwarding_rule-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gke-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_pubsub_topic_pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_pubsub_topic_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/lb-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_bigquery_dataset_fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_forwarding_rule-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_kms_enforce/skip-initial-check-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/pubsub-location-check-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/cc-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_bigquery_dataset_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/storage_gcp_sql_versioning_enforce/postgresql-version-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_gke_notify/gke-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/failure-gcp_dlp_save_findings/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_pubsub_topic_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_bigquery_dataset_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gce-pvtendpoint-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/null-gcp_dlp_save_findings/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/storage_gcp_sql_versioning_enforce/postgresql-version-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_compute_forwarding_rule-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_secret_manager_secret_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/failure_privateca_ca_pool_issue_block_policy/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/postgresql-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/failure-gdc-dp-internal-ip/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/success-gdc-dp-internal-ip/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_gke_notify/gke-masterauth-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_gke_notify/gke-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/labels-dataflow-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_pubsub_topic_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/success-gcp_dlp_save_findings/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_bigquery_dataset_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-release-channel-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_dataproc_cluster_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/failure-gcp_dlp_trigger/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/org-iam-policy-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/dns-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gke-workload-policy-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_forwarding_rule-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/cc-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/null-gcp_dlp_save_findings/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/dataproc-location-check-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/pubsub-location-check-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_secret_manager_secret_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/google_dialogflow_cx_agent-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_kms_crypto_key_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_dns_log_enforce/failure/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-dp-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gce-pvtendpoint-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_firewall-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_enforce_service_access/connect-mode-nul/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-bqt-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_traffic_enforce/success-gcp-traffic-enforce/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/lb-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_forwarding_rule-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_dataproc_cluster_fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_secret_manager_secret_null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/df-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-dp-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/gke-cluster-location-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-dp-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_bigquery_data_transfer_config_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-bqt-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-cc-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/gce-kms_key_name-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_dataproc_cluster_pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/postgresql-region-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/org-iam-member-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-df-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/gke-cluster-location-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gke-workload-policy-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_bigquery_dataset_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/org-iam-binding-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/failure-gdc-dp-http/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_bigquery_dataset_null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/prefix-validation-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-bqt-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_traffic_enforce/failure-gcp-traffic-enforce/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_forwarding_rule-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/bigquery-location-check-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_compute_forwarding_rule-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/dns-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_pubsub_topic_fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_secret_manager_secret_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/null-gcp_dlp_trigger/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-dataplane-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_firewall-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_bigquery_data_transfer_config_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/dataflow-kms-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_secret_manager_secret_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-df-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_pubsub_topic_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_log_enforce/null-gcp-vpc-subnet-logs/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/df-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_storage_bucket_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_secret_manager_secret_fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-cc-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/null-gdc-dp-internal-ip/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-release-channel-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/null-gdc-dp-internal-ip/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_unapproved_service_validation/failure/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/null_privateca_ca_pool_issue_block_policy/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_bigquery_dataset_pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-release-channel-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/org-iam-member-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/org-iam-policy-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-cc-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-cc-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/assetmgmt_gcp_naming_validation-df-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_secret_manager_secret_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/gke-cluster-nodepool-location-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_secret_manager_secret_pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-cc-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_route_restriction/null-gcp-vpc-as-defroute/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/success-gcp_dlp_save_findings/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-dataplane-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/google_compute_interconnect_attachment-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gce-rbac-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_pubsub_topic_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_compute_forwarding_rule-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_mtu_restriction/null-network-gcp-mtu-restriction/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-bqt-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-dp-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-bqt-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_log_enforce/success-gcp-vpc-subnet-logs/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gke-workload-policy-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_log_enforce/failure-gcp-vpc-subnet-logs/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/gce-kms_key_name-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/lb-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-bqt-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_pubsub_topic_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/assetmgmt_gcp_naming_validation-df-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_bigquery_dataset_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_enforce_service_access/connect-mode-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_port_restriction/google_compute_firewall-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/gke-cluster-nodepool-location-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/dns-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_dataproc_cluster_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_log_enforce/failure-gcp-vpc-subnet-logs/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gke-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/google_dialogflow_cx_agent-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/bigquery-location-check-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gke-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/success-gdc-dp-http/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/labels-dataflow-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/labels-dataflow-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_enforce_service_access/connect-mode-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/project-iam-policy-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gke-workload-policy-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/gce-kms_key_name-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_composer_environment-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_dataproc_cluster_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/cc-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-df-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/pubsub-location-check-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/null_privateca_ca_pool_issue_block_policy/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/dns-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/project-iam-member-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_unapproved_service_validation/success/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_dataproc_cluster_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gke-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/storage_gcp_versioning_enforce/gcs-version-lifecycle-policy-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/failure-gdc-dp-internal-ip/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/kms-location-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-dataplane-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/failure_privateca_ca_pool_expression_policy/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_pubsub_topic_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_kms_crypto_key_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_gke_notify/gke-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_traffic_enforce/null-gcp-traffic-enforce/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-cc-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/project-iam-policy-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/org-iam-binding-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_composer_environment-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-df-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-bqt-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_kms_enforce/rotation-check-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gke-dataplane-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-dp-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-cc-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/null_privateca_ca_pool_expression_policy/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_resiliency_validation/google_compute_region_backend_service-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_kms_key_ring_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_secret_manager_secret_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_resiliency_validation/google_compute_region_backend_service-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_dns_log_enforce/success/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/success_privateca_ca_pool_policy/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_mtu_restriction/failure-network-gcp-mtu-restriction/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_resiliency_validation/google_compute_region_backend_service-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/project-iam-binding-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_storage_bucket_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_route_restriction/failure-gcp-vpc-as-defroute/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_storage_bucket_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gce-pvtendpoint-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/failure-gcp_dlp_save_findings/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_dataproc_cluster_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_pubsub_topic_null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_resiliency_validation/google_compute_region_backend_service-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_gke_notify/gke-masterauth-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gce-rbac-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_bigquery_dataset_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_secret_manager_secret_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/dataflow-kms-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_kms_crypto_key_null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ssl_enforce/failure_privateca_ca_pool_issue_block_policy/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-dp-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gce-pvtendpoint-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_pubsub_topic_fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/secret-manager-location-check-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/storage_gcp_versioning_enforce/gcs-version-lifecycle-policy-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_identity_enforce/gke-workload-policy-null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_data_configuration_restriction/failure-gcp_dlp_trigger/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/postgresql-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-bqt-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_secret_manager_secret_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_naming_validation/google_compute_firewall_pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_storage_bucket_null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/success-gdc-dp-sa/tfconfig-functions",
+			"source": "../../../common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_mtu_restriction/success-network-gcp-mtu-restriction/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/dataproc-location-check-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/prefix-validation-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_kms_enforce/rotation-check-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gce-imgversion-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_dns_log_enforce/null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/assetmgmt_gcp_resiliency_validation/google_compute_region_backend_service-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_unapproved_service_validation/success/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/encryption_gcp_cmek_enforce/google_dataproc_cluster_null/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/failure-gdc-dp-sa/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/postgresql-null/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_subnet_log_enforce/null-gcp-vpc-subnet-logs/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_region_restricition/postgresql-region-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/network_gcp_ip_restriction/gke-fail/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/appsec_gcp_serviceaccount_restriction/null-gdc-df-sa/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/compute_gcp_versioning_enforce/gce-imgversion-pass/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/tagging_gcp_validation/google_compute_forwarding_rule-pass/generic-functions",
+			"source": "../../../common-functions/generic-functions/generic-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/generic-functions/generic-functions.sentinel"
+		},
+		{
+			"key": "test/threat_gcp_unapproved_service_validation/failure/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		},
+		{
+			"key": "test/iam_gcp_policy_restrictions/project-iam-binding-fail/tfplan-functions",
+			"source": "../../../common-functions/tfplan-functions/tfplan-functions.sentinel",
+			"sourceSum": "",
+			"dest": "/home/rajeevghosh/WELLS-PHASE3/07july22/sentinel-policies-test-p3/common-functions/tfplan-functions/tfplan-functions.sentinel"
+		}
+	]
+}
